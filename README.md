@@ -15,8 +15,7 @@ Logger.log(obj);
 For testing and evaluation, you can hotload the gasp.js library:
 
 ```
-var gasp = UrlFetchApp.fetch('http://pyknic-olivil.codio.io:8003/gasp.gs').getContentText();
-eval(gasp);
+eval(UrlFetchApp.fetch('http://gasify.io/gasp.js').getContentText());
 ```
 
 For better performance, include the following code the top of your Code.gs file:
