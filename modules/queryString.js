@@ -63,5 +63,6 @@ queryString = (function () {
 	} else {
 		//window.queryString = queryString;
 	}
-  return queryString;
+
+	return queryString;
 })();
