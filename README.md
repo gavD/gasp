@@ -5,7 +5,7 @@ A RequireJS-esque way to include code into your Google Apps Scripts
 Example:
 
 ```
-eval(UrlFetchApp.fetch('http://gasify.io/gasp.js').getContentText());
+eval(UrlFetchApp.fetch('http://pyknic-olivil.codio.io:8003/gasp.gs').getContentText());
 
 var qs = require('queryString');
 var obj = qs.parse('name=phishy&greeting=hello');
@@ -15,7 +15,7 @@ Logger.log(obj);
 For testing and evaluation, you can hotload the gasp.js library:
 
 ```
-eval(UrlFetchApp.fetch('http://gasify.io/gasp.js').getContentText());
+eval(UrlFetchApp.fetch('http://pyknic-olivil.codio.io:8003/gasp.gs').getContentText());
 ```
 
 For better performance, include the following code the top of your Code.gs file:
