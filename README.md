@@ -5,8 +5,7 @@ A RequireJS-esque way to include code into your Google Apps Scripts
 Example:
 
 ```
-var gasp = UrlFetchApp.fetch('http://gasify.io/gasp.js').getContentText();
-eval(gasp);
+eval(UrlFetchApp.fetch('http://gasify.io/gasp.js').getContentText());
 
 var qs = require('queryString');
 var obj = qs.parse('name=phishy&greeting=hello');
