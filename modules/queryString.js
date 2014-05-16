@@ -5,7 +5,7 @@
 	by Sindre Sorhus
 	MIT License
 */
-(function () {
+queryString = (function () {
 	'use strict';
 	var queryString = {};
 
@@ -63,4 +63,5 @@
 	} else {
 		//window.queryString = queryString;
 	}
+  return queryString;
 })();

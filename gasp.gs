@@ -3,11 +3,12 @@
  *
  * Example:
  *   var test = require('testerator');
- *   Logger.log(test.hello);
+ *   Logger.log(test.hello());
  */
-function require(lib) {
+this.require = function(lib) {
 	var index = {
-		testerator: 'https://gist.githubusercontent.com/phishy/e9e240d2e1c5e5d8208d/raw/7d339f28bfd6f7e42ace7b3681208ebb9e6c8e9b/testy.js'
+		testerator: 'http://pyknic-olivil.codio.io:8003/modules/testerator.js',
+    queryString: 'http://pyknic-olivil.codio.io:8003/modules/queryString.js'
 	}
 	var library = UrlFetchApp.fetch(index[lib]).getContentText();
 	eval(library);
