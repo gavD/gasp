@@ -41,4 +41,4 @@ this.require = function(lib) {
 }
 ```
 
-Currently, javascript libraries that have been rectified for use in Google Apps Script are currently hosted in this repository. If you would like to add a library, please send a pull request with an associsted test.
+Currently, javascript libraries that have been rectified for use in Google Apps Script are currently hosted in this repository. If you would like to add a library, please send a pull request with an associated test.
